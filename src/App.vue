@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/demo">Demo</router-link> |
-      <router-link to="/test">Test</router-link>
+      <router-link to="/blindtest">Blind Test Pokemon</router-link>
     </div>
     <router-view/>
   </div>
