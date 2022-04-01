@@ -9,9 +9,11 @@
     <div class="display-pokemon">
       <div
         class="display-pokemon"
-        v-for="(obj, index) in pokemons"
+        v-for="(obj, index) in pokemons" 
         v-bind:key="index"
       >
+      <!-- v-for pour la boucle => répétition de la div autant de fois qu'il y a de pokemons
+           => chaque pokémons est rangés dans obj -->
         <h1>
           <router-link v-bind:to="'/pokemons/' + obj.id">
             <div class="display"><img :src="obj.image" alt="" /></div>

@@ -77,8 +77,7 @@ h1 {
 }
 
 .width-vue {
-  width: 
-  10%;
+  width: 15%;
 }
 </style>
 
